@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Multi Notification Saver</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 24px;
+            background-color: #f8fafc;
+        }
+        .container {
+            background: #ffffff;
+            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+        .header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 16px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #2563eb;
+            font-size: 26px;
+            margin: 0;
+        }
+        .lang-picker {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #eff6ff;
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #bfdbfe;
+        }
+        .lang-picker label {
+            font-weight: 600;
+            font-size: 14px;
+            color: #1d4ed8;
+        }
+        select {
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid #93c5fd;
+            background: #ffffff;
+            font-size: 14px;
+            font-weight: 500;
+            color: #1e3a8a;
+            cursor: pointer;
+            outline: none;
+        }
+        select:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+        }
+        h2 {
+            color: #1e293b;
+            font-size: 19px;
+            margin-top: 24px;
+            margin-bottom: 10px;
+        }
+        p, li {
+            font-size: 15px;
+            color: #475569;
+        }
+        ul {
+            padding-left: 22px;
+        }
+        .highlight {
+            background-color: #eff6ff;
+            border-left: 4px solid #2563eb;
+            padding: 14px 18px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        .footer {
+            margin-top: 36px;
+            text-align: center;
+            font-size: 13px;
+            color: #94a3b8;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        [dir="rtl"] {
+            text-align: right;
+        }
+        [dir="rtl"] ul {
+            padding-left: 0;
+            padding-right: 22px;
+        }
+        [dir="rtl"] .highlight {
+            border-left: none;
+            border-right: 4px solid #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <div class="header-bar">
+            <h1 id="txtTitle">Privacy Policy</h1>
+            <div class="lang-picker">
+                <label for="langSelect" id="lblLang">🌐 Language / ভাষা:</label>
+                <select id="langSelect" onchange="changeLanguage(this.value)">
+                    <option value="en">English</option>
+                    <option value="bn">বাংলা (Bengali)</option>
+                    <option value="zh-CN">简体中文 (Chinese Simplified)</option>
+                    <option value="zh-TW">繁體中文 (Chinese Traditional)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="hi">हिन्दी (Hindi)</option>
+                    <option value="ar">العربية (Arabic)</option>
+                    <option value="ja">日本語 (Japanese)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="ru">Русский (Russian)</option>
+                </select>
+            </div>
+        </div>
+
+        <p><strong>App Name:</strong> Multi Notification Saver</p>
+        <p><strong>Developer:</strong> Md Ismail</p>
+        <p><strong>Last Updated:</strong> September 24, 2026</p>
+
+        <div class="highlight" id="txtSummary">
+            <strong>Core Privacy Guarantee:</strong> Multi Notification Saver operates 100% locally on your device. Your captured notification history is stored securely on your phone using an encrypted local database and is NEVER transmitted, uploaded, or shared with any external server.
+        </div>
+
+        <h2 id="h2_1">1. Information Capture & Local Storage</h2>
+        <div id="sec1">
+            <p>The App uses Android's Notification Access service to save incoming notifications from messaging apps (e.g., WhatsApp, Telegram, Messenger, IMO, Viber, Discord, Instagram, etc.).</p>
+            <ul>
+                <li><strong>Local Storage:</strong> Notification message text, sender name, app icon, and timestamp are saved exclusively in your phone's internal SQLite Room database.</li>
+                <li><strong>No Cloud Sync:</strong> We do not operate any backend servers. Your data never leaves your device.</li>
+            </ul>
+        </div>
+
+        <h2 id="h2_2">2. Third-Party Advertising (Google AdMob)</h2>
+        <div id="sec2">
+            <p>To keep the App free, we integrate Google AdMob to display Banner and Interstitial Ads.</p>
+            <ul>
+                <li><strong>Data Processed by AdMob:</strong> Google AdMob may process device identifiers (Google Advertising ID), IP address, and interaction data for ad delivery and fraud prevention.</li>
+                <li><strong>AdMob Policy:</strong> AdMob complies with global privacy standards (GDPR, CCPA). Learn more at <a href="https://policies.google.com/technologies/ads" target="_blank">Google Advertising Policy</a>.</li>
+            </ul>
+        </div>
+
+        <h2 id="h2_3">3. Required Android Permissions</h2>
+        <div id="sec3">
+            <ul>
+                <li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Required to read incoming notifications.</li>
+                <li><code>POST_NOTIFICATIONS</code>: Required on Android 13+ for status alerts.</li>
+                <li><code>INTERNET</code>: Required by Google AdMob to load ads.</li>
+            </ul>
+        </div>
+
+        <h2 id="h2_4">4. Data Deletion & Control</h2>
+        <div id="sec4">
+            <p>You can delete any notification message inside the App anytime. Uninstalling the App permanently deletes all saved notification history from your device.</p>
+        </div>
+
+        <h2 id="h2_5">5. Contact Information</h2>
+        <div id="sec5">
+            <p><strong>Developer:</strong> Md Ismail</p>
+            <p><strong>Email:</strong> <a href="mailto:mdiismaiofficial101@gmail.com">mdiismaiofficial101@gmail.com</a></p>
+        </div>
+
+        <div class="footer" id="txtFooter">
+            &copy; 2026 Md Ismail. All rights reserved. | Multi Notification Saver
+        </div>
+    </div>
+
+    <script>
+        const translations = {
+            "en": {
+                title: "Privacy Policy",
+                summary: "<strong>Core Privacy Guarantee:</strong> Multi Notification Saver operates 100% locally on your device. Your captured notification history is stored securely on your phone using an encrypted local database and is NEVER transmitted, uploaded, or shared with any external server.",
+                h2_1: "1. Information Capture & Local Storage",
+                sec1: "<p>The App uses Android's Notification Access service to save incoming notifications from messaging apps (e.g., WhatsApp, Telegram, Messenger, IMO, Viber, Discord, Instagram, etc.).</p><ul><li><strong>Local Storage:</strong> Notification text, sender name, app name, and timestamp are saved exclusively in your phone's internal database.</li><li><strong>No Cloud Sync:</strong> We do not operate any backend servers. Your data never leaves your device.</li></ul>",
+                h2_2: "2. Third-Party Advertising (Google AdMob)",
+                sec2: "<p>To keep the App free, we integrate Google AdMob to display Banner and Interstitial Ads.</p><ul><li><strong>Data Processed by AdMob:</strong> Google AdMob may process device identifiers (Google Advertising ID), IP address, and ad interaction data for ad delivery.</li><li><strong>AdMob Policy:</strong> Learn more at <a href='https://policies.google.com/technologies/ads' target='_blank'>Google Advertising Policy</a>.</li></ul>",
+                h2_3: "3. Required Android Permissions",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Required to read incoming notifications.</li><li><code>POST_NOTIFICATIONS</code>: Required on Android 13+ for system alerts.</li><li><code>INTERNET</code>: Required by Google AdMob to load ads.</li></ul>",
+                h2_4: "4. Data Deletion & Control",
+                sec4: "<p>You can delete any notification inside the App. Uninstalling the App permanently deletes all saved history from your phone.</p>",
+                h2_5: "5. Contact Information",
+                sec5: "<p><strong>Developer:</strong> Md Ismail</p><p><strong>Email:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. All rights reserved. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "bn": {
+                title: "প্রাইভেসি পলিসি (Privacy Policy)",
+                summary: "<strong>মূল গোপনীয়তা গ্যারান্টি:</strong> Multi Notification Saver সম্পূর্ণ ১০০% আপনার নিজস্ব ডিভাইসে কাজ করে। আপনার সংরক্ষিত নোটিফিকেশন মেসেজগুলো শুধুমাত্র আপনার ফোনেই সুরক্ষিত থাকবে এবং কোনো এক্সটার্নাল সার্ভারে কখনোই আপলোড বা শেয়ার করা হয় না।",
+                h2_1: "১. নোটিফিকেশন তথ্য সংগ্রহ ও লোকাল স্টোরেজ",
+                sec1: "<p>এই অ্যাপটি অ্যান্ড্রয়েডের নোটিফিকেশন অ্যাক্সেস সার্ভিস ব্যবহার করে চ্যাট অ্যাপগুলোর (যেমন: হোয়াটসঅ্যাপ, টেলিগ্রাম, মেসেঞ্জার, ইমো, ভাইবার ইত্যাদি) নোটিফিকেশন মেসেজ সেভ করে রাখে।</p><ul><li><strong>লোকাল স্টোরেজ:</strong> মেসেজ টেস্ট, প্রেরকের নাম এবং সময় শুধুমাত্র আপনার ফোনের ইন্টারনাল ডাটাবেসে সেভ থাকে।</li><li><strong>কোনো ক্লাউড ব্যাকএন্ড নেই:</strong> আপনার ডাটা আপনার ফোন থেকে কখনোই বাইরে যায় না।</li></ul>",
+                h2_2: "২. গুগল অ্যাডমোব বিজ্ঞাপন (Google AdMob)",
+                sec2: "<p>অ্যাপটি সম্পূর্ণ ফ্রি রাখতে আমরা Google AdMob ব্যানার এবং ইন্টারস্টিশিয়াল অ্যাড প্রদর্শন করি।</p><ul><li><strong>অ্যাডমোব ডাটা:</strong> Google AdMob অ্যাড প্রদর্শনের জন্য ডিভাইসের অ্যানোনিমাস আইডি এবং আইপি অ্যাড্রেস ব্যবহার করতে পারে।</li><li><strong>পলিসি:</strong> বিস্তারিত জানতে দেখুন <a href='https://policies.google.com/technologies/ads' target='_blank'>গুগল বিজ্ঞাপন নীতি</a>।</li></ul>",
+                h2_3: "৩. প্রয়োজনীয় অ্যান্ড্রেয়েড পারমিশন",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: আসার নোটিফিকেশন ক্যাপচার করার জন্য।</li><li><code>POST_NOTIFICATIONS</code>: সিস্টেম স্ট্যাটাস অ্যালার্ট দেখানোর জন্য।</li><li><code>INTERNET</code>: অ্যাডমোব অ্যাড লোড করার জন্য।</li></ul>",
+                h2_4: "৪. ডাটা মুছে ফেলা এবং নিয়ন্ত্রণ",
+                sec4: "<p>অ্যাপের ভেতর থেকে যেকোনো মেসেজ মুছে ফেলা যায়। অ্যাপ আনইনস্টল করলে আপনার ফোন থেকে সব ডাটা চিরতরে মুছে যাবে।</p>",
+                h2_5: "৫. যোগাযোগের তথ্য",
+                sec5: "<p><strong>ডেভেলপার:</strong> Md Ismail</p><p><strong>ইমেইল:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; ২০২৬ Md Ismail। সর্বস্বত্ব সংরক্ষিত। | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "zh-CN": {
+                title: "隐私政策 (Privacy Policy)",
+                summary: "<strong>核心隐私保证：</strong> Multi Notification Saver 100% 在您的设备本地运行。捕获的通知历史记录安全地保存在手机本地数据库中，绝不会传输、上传或共享给任何外部服务器。",
+                h2_1: "1. 信息捕获与本地存储",
+                sec1: "<p>本应用使用 Android 的通知读取权限保存来自社交与即时通讯应用（如 WhatsApp, Telegram, Messenger, IMO, Discord 等）的通知消息。</p><ul><li><strong>本地存储：</strong>通知文本、发送者姓名和时间戳仅保存在手机内部 SQLite 数据库中。</li><li><strong>无云端同步：</strong>我们不运营任何后端服务器，您的数据永远不会离开您的设备。</li></ul>",
+                h2_2: "2. 第三方广告服务 (Google AdMob)",
+                sec2: "<p>为了保持应用免费，我们集成了 Google AdMob 用于展示横幅广告和插屏广告。</p><ul><li><strong>AdMob 处理的数据：</strong>Google AdMob 可能会处理设备标识符（Google 广告 ID）、IP 地址等用于广告展示和防欺诈。</li><li><strong>隐私政策：</strong>详情请参阅 <a href='https://policies.google.com/technologies/ads' target='_blank'>Google 广告隐私政策</a>。</li></ul>",
+                h2_3: "3. 所需 Android 权限",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: 读取传入通知所需。</li><li><code>POST_NOTIFICATIONS</code>: Android 13+ 发送系统通知所需。</li><li><code>INTERNET</code>: AdMob 加载广告所需。</li></ul>",
+                h2_4: "4. 数据删除与控制",
+                sec4: "<p>您可以随时在应用内删除任何通知历史。卸载本应用将永久删除设备上保存的所有通知记录。</p>",
+                h2_5: "5. 开发者联系方式",
+                sec5: "<p><strong>开发者：</strong> Md Ismail</p><p><strong>电子邮箱：</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. 保留所有权利。 | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "zh-TW": {
+                title: "隱私權政策 (Privacy Policy)",
+                summary: "<strong>核心隱私保證：</strong> Multi Notification Saver 100% 在您的裝置本地運行。捕獲的通知歷史記錄安全地儲存在手機本地資料庫中，絕不會傳輸、上傳或分享給任何外部伺服器。",
+                h2_1: "1. 資訊捕獲與本地儲存",
+                sec1: "<p>本應用使用 Android 的通知讀取權限儲存來自通訊應用程式的通知訊息。</p><ul><li><strong>本地儲存：</strong>通知內文、發送者姓名與時間戳記僅儲存在手機內部資料庫中。</li><li><strong>無雲端同步：</strong>您的資料永遠不會離開您的裝置。</li></ul>",
+                h2_2: "2. 第三方廣告服務 (Google AdMob)",
+                sec2: "<p>為了保持應用程式免費，我們整合了 Google AdMob 用於展示廣告。</p>",
+                h2_3: "3. 所需 Android 權限",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: 讀取通知所需。</li><li><code>INTERNET</code>: 載入廣告所需。</li></ul>",
+                h2_4: "4. 資料刪除與控制",
+                sec4: "<p>您可隨時在應用程式內刪除通知。解除安裝將永久刪除所有記錄。</p>",
+                h2_5: "5. 聯絡資訊",
+                sec5: "<p><strong>開發者：</strong> Md Ismail</p><p><strong>電子郵件：</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. 保留所有權利。 | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "es": {
+                title: "Política de Privacidad",
+                summary: "<strong>Garantía de Privacidad:</strong> Multi Notification Saver funciona 100% localmente en su dispositivo. El historial de notificaciones capturado se almacena de forma segura en su teléfono y NUNCA se transmite ni comparte con ningún servidor externo.",
+                h2_1: "1. Captura de Información y Almacenamiento Local",
+                sec1: "<p>La aplicación utiliza el servicio de acceso a notificaciones de Android para guardar notificaciones entrantes de aplicaciones de mensajería (WhatsApp, Telegram, Messenger, etc.).</p><ul><li><strong>Almacenamiento Local:</strong> El texto, remitente y hora se guardan exclusivamente en la base de datos interna de su teléfono.</li><li><strong>Sin Sincronización en la Nube:</strong> Sus datos nunca salen de su dispositivo.</li></ul>",
+                h2_2: "2. Publicidad de Terceros (Google AdMob)",
+                sec2: "<p>Para mantener la aplicación gratuita, integramos Google AdMob para mostrar anuncios.</p>",
+                h2_3: "3. Permisos de Android Requeridos",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Requerido para leer notificaciones.</li><li><code>INTERNET</code>: Requerido por AdMob.</li></ul>",
+                h2_4: "4. Eliminación de Datos",
+                sec4: "<p>Puede eliminar notificaciones dentro de la aplicación. Al desinstalar la app se borrará todo el historial permanentemente.</p>",
+                h2_5: "5. Contacto del Desarrollador",
+                sec5: "<p><strong>Desarrollador:</strong> Md Ismail</p><p><strong>Correo:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. Todos los derechos reservados. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "fr": {
+                title: "Politique de Confidentialité",
+                summary: "<strong>Garantie de Confidentialité :</strong> Multi Notification Saver fonctionne à 100% localement sur votre appareil. Vos notifications sont stockées en toute sécurité sur votre téléphone et ne sont JAMAIS transmises à un serveur externe.",
+                h2_1: "1. Capture des Informations et Stockage Local",
+                sec1: "<p>L'application enregistre les notifications entrantes des applications de messagerie sur la base de données SQLite locale de votre téléphone.</p>",
+                h2_2: "2. Publicité Tierce (Google AdMob)",
+                sec2: "<p>Nous intégrons Google AdMob pour afficher des annonces afin de garder l'application gratuite.</p>",
+                h2_3: "3. Autorisations Android Requises",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Requis pour capturer les notifications.</li><li><code>INTERNET</code>: Requis pour charger les annonces.</li></ul>",
+                h2_4: "4. Suppression des Données",
+                sec4: "<p>Vous pouvez supprimer les notifications à tout moment. La désinstallation de l'application efface définitivement toutes les données.</p>",
+                h2_5: "5. Contact",
+                sec5: "<p><strong>Développeur :</strong> Md Ismail</p><p><strong>E-mail :</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. Tous droits réservés. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "de": {
+                title: "Datenschutzerklärung",
+                summary: "<strong>Datenschutzgarantie:</strong> Multi Notification Saver läuft zu 100% lokal auf Ihrem Gerät. Benachrichtigungen werden sicher auf Ihrem Telefon gespeichert und NIEMALS an externe Server übertragen.",
+                h2_1: "1. Erfassung & Lokale Speicherung",
+                sec1: "<p>Die App speichert eingehende Benachrichtigungen lokal in der SQLite-Datenbank Ihres Telefons.</p>",
+                h2_2: "2. Werbung von Drittanbietern (Google AdMob)",
+                sec2: "<p>Google AdMob wird verwendet, um Werbeanzeigen anzuzeigen.</p>",
+                h2_3: "3. Android-Berechtigungen",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Erforderlich zum Lesen von Benachrichtigungen.</li><li><code>INTERNET</code>: Erforderlich für Werbung.</li></ul>",
+                h2_4: "4. Datenlöschung",
+                sec4: "<p>Durch Deinstallieren der App werden alle Daten dauerhaft gelöscht.</p>",
+                h2_5: "5. Kontakt",
+                sec5: "<p><strong>Entwickler:</strong> Md Ismail</p><p><strong>E-Mail:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. Alle Rechte vorbehalten. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "hi": {
+                title: "गोपनीयता नीति (Privacy Policy)",
+                summary: "<strong>गोपनीयता गारंटी:</strong> Multi Notification Saver पूरी तरह से आपके डिवाइस पर काम करता है। आपका नोटिफिकेशन इतिहास आपके फोन में सुरक्षित रहता है और इसे कभी भी किसी बाहरी सर्वर पर अपलोड नहीं किया जाता है।",
+                h2_1: "1. जानकारी कैप्चर और लोकल स्टोरेज",
+                sec1: "<p>यह ऐप मैसेजिंग ऐप के आने वाले नोटिफिकेशन को आपके फ़ोन के इंटरनल डेटाबेस में सेव करता है।</p>",
+                h2_2: "2. Google AdMob विज्ञापन",
+                sec2: "<p>ऐप को मुफ़्त रखने के लिए हम Google AdMob विज्ञापनों का उपयोग करते हैं।</p>",
+                h2_3: "3. आवश्यक Android अनुमतियाँ",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: नोटिफिकेशन पढ़ने के लिए।</li><li><code>INTERNET</code>: विज्ञापन लोड करने के लिए।</li></ul>",
+                h2_4: "4. डेटा हटाना",
+                sec4: "<p>ऐप अनइंस्टॉल करने पर सारा डेटा हमेशा के लिए डिलीट हो जाता है।</p>",
+                h2_5: "5. संपर्क विवरण",
+                sec5: "<p><strong>डेवलपर:</strong> Md Ismail</p><p><strong>ईमेल:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. सर्वाधिकार सुरक्षित। | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "ar": {
+                title: "سياسة الخصوصية (Privacy Policy)",
+                summary: "<strong>ضمان الخصوصية الأساسي:</strong> يعمل تطبيق Multi Notification Saver بنسبة 100٪ محليًا على جهازك. يتم تخزين سجل الإشعارات بشكل آمن على هاتفك ولا يتم إرساله أو مشاركته مع أي خادم خارجي على الإطلاق.",
+                h2_1: "1. التقاط المعلومات والتخزين المحلي",
+                sec1: "<p>يستخدم التطبيق خدمة الوصول إلى الإشعارات في Android لحفظ الإشعارات الواردة محليًا على هاتفك.</p>",
+                h2_2: "2. الإعلانات (Google AdMob)",
+                sec2: "<p>نعرض إعلانات Google AdMob للحفاظ على مجانية التطبيق.</p>",
+                h2_3: "3. أذونات أندرويد المطلوبة",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: مطلوب لقراءة الإشعارات.</li><li><code>INTERNET</code>: مطلوب لتحميل الإعلانات.</li></ul>",
+                h2_4: "4. حذف البيانات",
+                sec4: "<p>يؤدي إلغاء تثبيت التطبيق إلى حذف جميع البيانات المحفوظة نهائيًا من هاتفك.</p>",
+                h2_5: "5. معلومات الاتصال",
+                sec5: "<p><strong>المطور:</strong> Md Ismail</p><p><strong>البريد الإلكتروني:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. جميع الحقوق محفوظة. | Multi Notification Saver",
+                dir: "rtl"
+            },
+            "ja": {
+                title: "プライバシーポリシー (Privacy Policy)",
+                summary: "<strong>プライバシー保証：</strong> Multi Notification Saver は100%お使いの端末ローカルで動作します。キャプチャされた通知履歴は安全に端末内に保存され、外部サーバーに送信・共有されることは一切ありません。",
+                h2_1: "1. 情報の取得とローカル保存",
+                sec1: "<p>Androidの通知アクセスサービスを使用し、メッセージングアプリの受信通知を端末内部データベースに保存します。</p>",
+                h2_2: "2. 第三者配信広告 (Google AdMob)",
+                sec2: "<p>アプリを無料で提供するため、Google AdMob広告を導入しています。</p>",
+                h2_3: "3. 必要なAndroid権限",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: 通知読み取りに必要。</li><li><code>INTERNET</code>: 広告読み込みに必要。</li></ul>",
+                h2_4: "4. データの削除",
+                sec4: "<p>アプリをアンインストールすると、保存された全履歴が永久に削除されます。</p>",
+                h2_5: "5. 開発者連絡先",
+                sec5: "<p><strong>開発者：</strong> Md Ismail</p><p><strong>メール：</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. All rights reserved. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "pt": {
+                title: "Política de Privacidade",
+                summary: "<strong>Garantia de Privacidade:</strong> O Multi Notification Saver funciona 100% localmente no seu dispositivo. As suas notificações são armazenadas com segurança no seu telemóvel e NUNCA são transmitidas para qualquer servidor externo.",
+                h2_1: "1. Captura de Informações e Armazenamento Local",
+                sec1: "<p>O aplicativo salva notificações recebidas localmente na base de dados do seu telefone.</p>",
+                h2_2: "2. Publicidade de Terceiros (Google AdMob)",
+                sec2: "<p>Usamos o Google AdMob para exibir anúncios e manter o app gratuito.</p>",
+                h2_3: "3. Permissões do Android",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Necessário para ler notificações.</li><li><code>INTERNET</code>: Necessário para anúncios.</li></ul>",
+                h2_4: "4. Exclusão de Dados",
+                sec4: "<p>Desinstalar o aplicativo apaga permanentemente todo o histórico salvo.</p>",
+                h2_5: "5. Contato do Desenvolvedor",
+                sec5: "<p><strong>Desenvolvedor:</strong> Md Ismail</p><p><strong>E-mail:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. Todos os direitos reservados. | Multi Notification Saver",
+                dir: "ltr"
+            },
+            "ru": {
+                title: "Политика Конфиденциальности",
+                summary: "<strong>Гарантия Конфиденциальности:</strong> Приложение Multi Notification Saver работает на 100% локально на вашем устройстве. История уведомлений надежно хранится на вашем телефоне и НИКОГДА не передается на внешние серверы.",
+                h2_1: "1. Сбор и Локальное Хранение",
+                sec1: "<p>Приложение сохраняет входящие уведомления в локальной базе данных SQLite вашего телефона.</p>",
+                h2_2: "2. Реклама (Google AdMob)",
+                sec2: "<p>Мы используем Google AdMob для показа рекламы.</p>",
+                h2_3: "3. Разрешения Android",
+                sec3: "<ul><li><code>BIND_NOTIFICATION_LISTENER_SERVICE</code>: Требуется для чтения уведомлений.</li><li><code>INTERNET</code>: Требуется для загрузки рекламы.</li></ul>",
+                h2_4: "4. Удаление Данных",
+                sec4: "<p>Удаление приложения навсегда удаляет всю сохраненную историю с устройства.</p>",
+                h2_5: "5. Контакты Разработчика",
+                sec5: "<p><strong>Разработчик:</strong> Md Ismail</p><p><strong>Email:</strong> <a href='mailto:mdiismaiofficial101@gmail.com'>mdiismaiofficial101@gmail.com</a></p>",
+                footer: "&copy; 2026 Md Ismail. Все права защищены. | Multi Notification Saver",
+                dir: "ltr"
+            }
+        };
+
+        function changeLanguage(langCode) {
+            const data = translations[langCode] || translations["en"];
+            const container = document.getElementById("mainContainer");
+            
+            container.setAttribute("dir", data.dir);
+            document.getElementById("txtTitle").innerHTML = data.title;
+            document.getElementById("txtSummary").innerHTML = data.summary;
+            document.getElementById("h2_1").innerHTML = data.h2_1;
+            document.getElementById("sec1").innerHTML = data.sec1;
+            document.getElementById("h2_2").innerHTML = data.h2_2;
+            document.getElementById("sec2").innerHTML = data.sec2;
+            document.getElementById("h2_3").innerHTML = data.h2_3;
+            document.getElementById("sec3").innerHTML = data.sec3;
+            document.getElementById("h2_4").innerHTML = data.h2_4;
+            document.getElementById("sec4").innerHTML = data.sec4;
+            document.getElementById("h2_5").innerHTML = data.h2_5;
+            document.getElementById("sec5").innerHTML = data.sec5;
+            document.getElementById("txtFooter").innerHTML = data.footer;
+        }
+    </script>
+</body>
+</html>
